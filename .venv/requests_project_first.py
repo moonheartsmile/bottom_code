@@ -1,7 +1,7 @@
 import requests
 
 
-params = {'q' : 'Perm', 'appid' : 'ba1a7d6615ab0bef18367747b2a6334b', 'units' : 'metric'}
+params = {'q' : 'Perm', 'appid' : 'token', 'units' : 'metric'}
 
 response = requests.get('https://api.openweathermap.org/data/2.5/weather', params=params)
 
