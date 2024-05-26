@@ -12,5 +12,4 @@ print(x['weather'][0]['main'])
 #print(response.headers)
 print(response.text)
 print(response.json())
-h = newvariable
 
